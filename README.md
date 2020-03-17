@@ -33,7 +33,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > catkin_make
 
-
+*
 
 > git clone https://github.com/erasersedu/rosinstall.git
 
@@ -43,7 +43,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > sudo apt install pyqt5-dev-tools
 
-
+*
 
 > cd
 
@@ -53,7 +53,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > catkin_make
 
-
+*
 
 > cd ~/turtlebot_ws/src/
 
@@ -67,7 +67,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > rosdep install --from-paths src -i -y
 
-
+*
 
 > cd ~/turtlebot_ws/
 
@@ -83,7 +83,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > cd kobuki
 
-
+*
 
 > wstool init src -j5 ~/erasersedu_ws/rosinstall/kobuki.rosinstall
 
@@ -91,7 +91,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > rosdep install --from-paths src -i -y
 
-
+*
 
 > cd ~/turtlebot_ws/
 
@@ -104,7 +104,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > sudo apt-get install ros-kinetic-cmake-modules ros-kinetic-interactive-markers ros-kinetic-depth-image-proc ros-kinetic-xacro
 
-
+*
 
 > cd ~/turtlebot_ws/src/
 
@@ -112,7 +112,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > cd turtlebot
 
-
+*
 
 > wstool init src -j5 ~/erasersedu_ws/rosinstall/turtlebot.rosinstall
 
@@ -120,11 +120,12 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > rosdep install --from-paths src -i -y
 
-
+*
 
 > cd ~/turtlebot_ws/
 
 > catkin_make
+
 
 #####
 2.4 Install ROS libraries:
@@ -160,16 +161,17 @@ http://wiki.ros.org/melodic/Installation/Ubuntu
 
 > catkin_make
 
-
+*
 
 > git clone https://github.com/erasersedu/rosinstall.git
+
 
 #####
 2.1 Install Rocon:
 
 > sudo apt install pyqt5-dev-tools
 
-
+*
 
 > cd
 
@@ -179,7 +181,7 @@ http://wiki.ros.org/melodic/Installation/Ubuntu
 
 > catkin_make
 
-
+*
 
 > cd ~/turtlebot_ws/src/
 
@@ -193,11 +195,12 @@ http://wiki.ros.org/melodic/Installation/Ubuntu
 
 > rosdep install --from-paths src -i -y
 
-
+*
 
 > cd ~/turtlebot_ws/
 
 > catkin_make
+
 
 #####
 2.2 Install Kobuki and Turtlebot:
