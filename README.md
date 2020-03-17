@@ -61,7 +61,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > cd rocon
 
-> wstool init src -j5 ~/erasersedu_ws/rosinstall/rocon.rosinstall
+> wstool init src -j5 ~/erasersedu_ws/rosinstall/src/rocon.rosinstall
 
 > source /opt/ros/kinetic/setup.bash
 
@@ -85,7 +85,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 *
 
-> wstool init src -j5 ~/erasersedu_ws/rosinstall/kobuki.rosinstall
+> wstool init src -j5 ~/erasersedu_ws/rosinstall/src/kobuki.rosinstall
 
 > source ~/turtlebot_ws/devel/setup.bash
 
@@ -114,7 +114,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 *
 
-> wstool init src -j5 ~/erasersedu_ws/rosinstall/turtlebot.rosinstall
+> wstool init src -j5 ~/erasersedu_ws/rosinstall/src/turtlebot.rosinstall
 
 > source ~/turtlebot_ws/devel/setup.bash
 
@@ -189,7 +189,7 @@ http://wiki.ros.org/melodic/Installation/Ubuntu
 
 > cd rocon
 
-> wstool init src -j5 ~/erasersedu_ws/rosinstall/rocon.rosinstall
+> wstool init src -j5 ~/erasersedu_ws/rosinstall/src/rocon.rosinstall
 
 > source /opt/ros/kinetic/setup.bash
 
@@ -210,7 +210,7 @@ http://wiki.ros.org/melodic/Installation/Ubuntu
 
 > cd ~/turtlebot_ws/src/
 
-> bash ~/erasersedu_ws/rosinstall/ubuntu_18_turtlebot_basic.sh
+> bash ~/erasersedu_ws/rosinstall/src/ubuntu_18_turtlebot_basic.sh
 
 
 
