@@ -169,37 +169,7 @@ http://wiki.ros.org/melodic/Installation/Ubuntu
 #####
 2.1 Install Rocon:
 
-> sudo apt install pyqt5-dev-tools
-
-*
-
-> cd
-
-> mkdir -p ~/turtlebot_ws/src/
-
-> cd ~/turtlebot_ws
-
-> catkin_make
-
-*
-
-> cd ~/turtlebot_ws/src/
-
-> mkdir -p rocon
-
-> cd rocon
-
-> wstool init src -j5 ~/erasersedu_ws/rosinstall/src/rocon.rosinstall
-
-> source /opt/ros/kinetic/setup.bash
-
-> rosdep install --from-paths src -i -y
-
-*
-
-> cd ~/turtlebot_ws/
-
-> catkin_make
+> sudo apt-get install ros-melodic-rocon-*
 
 
 #####
@@ -207,11 +177,19 @@ http://wiki.ros.org/melodic/Installation/Ubuntu
 
 (From: https://github.com/gaunthan/Turtlebot2-On-Melodic)
 
+> cd
 
-> cd ~/turtlebot_ws/src/
+> mkdir -p ~/turtlebot_ws/src/
+
+> cd ~/turtlebot_ws/
+
+> catkin_make
+
+> sudo apt-get install ros-melodic-joy*
 
 > bash ~/erasersedu_ws/rosinstall/src/ubuntu_18_turtlebot_basic.sh
 
+> catkin_make
 
 
 3. Install OpenCV:
