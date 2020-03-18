@@ -196,6 +196,14 @@ http://wiki.ros.org/melodic/Installation/Ubuntu
 
 https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-opencv.md
 
+3.1 Install CUDA
+
+https://www.pugetsystems.com/labs/hpc/How-to-install-CUDA-9-2-on-Ubuntu-18-04-1184/
+
+
+https://www.pugetsystems.com/labs/hpc/How-To-Install-CUDA-10-together-with-9-2-on-Ubuntu-18-04-with-support-for-NVIDIA-20XX-Turing-GPUs-1236/
+
+
 
 4. Install OpenNI/NITE:
 
