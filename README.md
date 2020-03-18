@@ -1,7 +1,5 @@
 # rosinstall
 
-Ubuntu 16.04
-
 *.Install git:
 
 > sudo apt-get install git
@@ -15,12 +13,22 @@ Ubuntu 16.04
 
 1. Install ROS:
 
+Ubuntu 16.04:
+
 http://wiki.ros.org/kinetic/Installation/Ubuntu
+
+*
+
+Ubuntu 18.04:
+
+http://wiki.ros.org/melodic/Installation/Ubuntu
 
 #####
 #####
 
 2. Install Turtlebot
+
+Ubuntu 16.04:
 
 (From: http://www.programmersought.com/article/8124276168/)
 
@@ -142,16 +150,9 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 > sudo apt-get install ros-kinetic-ar-track-alvar-msgs
 
+*
 
-#####
-#####
-
-1. Install ROS in Ubuntu 18.04:
-
-http://wiki.ros.org/melodic/Installation/Ubuntu
-
-
-2. Install Turtlebot in Ubuntu 18.04:
+Ubuntu 18.04:
 
 > cd
 
@@ -194,15 +195,27 @@ http://wiki.ros.org/melodic/Installation/Ubuntu
 
 3. Install OpenCV:
 
+Ubuntu 16.04:
+
 https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-opencv.md
 
-3.1 Install CUDA
+*
+
+Ubuntu 18.04:
+
+Install CUDA
 
 https://www.pugetsystems.com/labs/hpc/How-to-install-CUDA-9-2-on-Ubuntu-18-04-1184/
 
 
 https://www.pugetsystems.com/labs/hpc/How-To-Install-CUDA-10-together-with-9-2-on-Ubuntu-18-04-with-support-for-NVIDIA-20XX-Turing-GPUs-1236/
 
+
+Install OpenCV
+
+https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-opencv.md
+
+(Alternatively: https://demura.net/misc/16485.html )
 
 
 4. Install OpenNI/NITE:
@@ -212,6 +225,13 @@ https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-open
 
 5. Install OpenNI in ROS:
 
+Ubuntu 16.04:
+
 > sudo apt-get install ros-kinetic-openni*
+
+
+Ubuntu 18.04:
+
+> sudo apt-get install ros-melodic-openni*
 
 
