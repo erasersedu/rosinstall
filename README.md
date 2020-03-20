@@ -23,6 +23,28 @@ Ubuntu 18.04:
 
 http://wiki.ros.org/melodic/Installation/Ubuntu
 
+You might need to install the following individual packages:
+
+> sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list
+
+> sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+
+> sudo apt update
+
+Then
+
+> sudo apt-get install ros-melodic-map-server
+
+> sudo apt-get install ros-melodic-amcl
+
+> sudo apt-get install ros-melodic-laptop-battery-monitor
+
+> sudo apt-get install ros-melodic-move-base
+
+> sudo apt-get install ros-melodic-navigation
+
+> sudo apt-get install ros-melodic-yocs-*
+
 #####
 #####
 
@@ -233,5 +255,3 @@ Ubuntu 16.04:
 Ubuntu 18.04:
 
 > sudo apt-get install ros-melodic-openni*
-
-
