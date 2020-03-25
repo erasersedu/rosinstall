@@ -48,7 +48,7 @@ Then
 #####
 #####
 
-3. Install OpenCV:
+2. Install OpenCV:
 
 Ubuntu 16.04:
 
@@ -73,12 +73,12 @@ https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-open
 (Alternatively: https://demura.net/misc/16485.html )
 
 
-4. Install OpenNI/NITE:
+3. Install OpenNI/NITE:
 
 https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-openni-nite.md
 
 
-4.1 Install OpenNI in ROS:
+3.1 Install OpenNI in ROS:
 
 Ubuntu 16.04:
 
