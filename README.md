@@ -125,3 +125,7 @@ Proceed as indicated in the following link:
 ```
 sudo apt-get install ros-melodic-openni*
 ```
+
+# Authors
+
+* **Luis Contreras** - [ARTenshi](https://github.com/ARTenshi)
