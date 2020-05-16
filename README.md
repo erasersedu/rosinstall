@@ -1,6 +1,6 @@
 # ROSINSTALL
 
-A quick introduction to ROSINSTALL
+Install the necessary packages to use the Turtlebot in ROS with OpenCV and OpenNI
 
 # Prerequisites
 
